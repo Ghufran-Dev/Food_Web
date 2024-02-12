@@ -1,0 +1,90 @@
+.myContainer {
+    max-width: 80%;
+    margin: 5rem auto;
+    height: 76.2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myContainer img {
+    width: 100%;
+    border-radius: 2rem;
+    transition: all .6s ease-in-out;
+}
+
+.myContainer img:hover {
+    transform: scale(1.08);
+    transition: all .6s ease-in-out;
+    opacity: .9;
+}
+
+.img {
+    overflow: hidden;
+    max-width: 700px;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 7px var(--light-indigo-5);
+    transition: all .6s ease-in-out;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    font-size: 5rem;
+    color: var(--light-indigo-5);
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.origin {
+    text-transform: uppercase;
+    color: var(--light-indigo-5);
+    font-weight: 500;
+}
+
+.cook-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.4rem;
+    color: var(--light-indigo-5);
+    font-weight: 400;
+}
+
+.price {
+    font-size: 2.4rem;
+    color: green;
+}
+
+.price::before {
+    content: 'Price: ';
+    color: var(--light-indigo-5);
+}
+
+.details button {
+    background-color: var(--light-indigo-5);
+    color: white;
+    padding: 1.3rem;
+    border: none;
+    border-radius: 1.4rem;
+    font-size: 2rem;
+    transition: all .4s ease-in-out;
+    border: 1px solid transparent;
+}
+.details button:hover{
+ background-color: purple;
+ border-color: var(--light-indigo-5);
+ transition: all .4s ease-in-out;
+}

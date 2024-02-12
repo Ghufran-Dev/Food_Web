@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+    color: white !important;
+    color: yellow !important;
+}
+footer{
+    font-size: 2rem;
+    padding:1rem 0rem;
+    background-color: var(--light-indigo-5);
+    color: white;
+    /* position:unset;
+    bottom: 0; */
+    width: 100%;
+}

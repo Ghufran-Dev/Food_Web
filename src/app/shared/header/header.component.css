@@ -1,0 +1,30 @@
+
+.navbar{
+    background-color:var(--light-indigo-5);
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 2px 7px var(--light-indigo-5);
+    padding: .5rem 2rem;
+}
+
+#navbarNavDropdown{
+ justify-content: flex-end;
+}
+a{
+    color: white !important;
+}
+.dropdown-menu{
+    background-color: purple;
+    font-size: 1.5rem;
+    min-width: 6vw;
+}
+.dropdown-menu :nth-child(2){
+    padding: 1rem 0rem;
+}
+.dropdown-item:hover{
+color: black !important;
+}
+
+

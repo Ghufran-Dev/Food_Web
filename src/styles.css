@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    --pur:#7e1355;
+    --light-indigo-1:#de70ec;
+    --light-indigo-2:#a34bb4;
+    --light-indigo-3:#8436a1;
+    --light-indigo-4:#6a1292;
+    --light-indigo-5:#4c005a;
+    --dark-indigo-1:#4b0082;
+    --dark-indigo-2:#430075;
+    --dark-indigo-3:#2d004e;
+
+}
+/* p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+} */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

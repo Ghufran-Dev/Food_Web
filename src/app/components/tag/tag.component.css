@@ -1,0 +1,18 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div a{
+    text-decoration: none;
+    background-color: var(--light-indigo-5);
+    color: white;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    margin: 3rem .3rem 0rem .5rem;
+    border-radius: 1rem;
+}
+/* span{
+    padding-left: .5rem;
+} */

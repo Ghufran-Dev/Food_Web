@@ -1,0 +1,26 @@
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+input{
+    border-radius: 1.5rem 0 0 1.5rem;
+    border-color: purple;
+    outline: purple;
+    padding-left: 1rem;
+    color: purple;
+}
+::placeholder{
+    padding: 2rem 1rem;
+    font-size: 1.4rem;
+}
+button{
+    background-color: purple;
+    color: white;
+    padding: 1.2rem;
+    border-radius:0 1.5rem 1.5rem 0;
+    outline: none;
+    border: none;
+}
